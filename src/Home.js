@@ -9,7 +9,7 @@ const Navigator = createStackNavigator({
   HomeList: {
     screen: HomeList,
     navigationOptions: {
-      title: 'Restaurant FiveStars',
+      title: 'Restaurant ',
     },
   },
   HomeProducts: {
