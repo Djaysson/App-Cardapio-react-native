@@ -1,5 +1,6 @@
 # Cardápio-Restaurante
-<p>O projeto Cardápio de restaurante visa conectar clientes aos produtos que o restaurante dispõe</p>
+
+<p>O projeto Cardápio de restaurante visa mostra para os clientes quais os produtos que o restaurante dispõe</p>
 
 <h2>Tecnologias usadas</h2>
  <li>React Native</li>
