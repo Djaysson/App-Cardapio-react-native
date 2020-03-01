@@ -6,7 +6,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 import Home from './src/Home';
 import Contato from './src/Contato';
 import Horarios from './src/Horarios';
-import Sobre from './src/Sobre';
+import Carrinho from './src/Carrinho';
 
 const Navigator = createBottomTabNavigator({
   Home: {
@@ -25,29 +25,6 @@ const Navigator = createBottomTabNavigator({
           return (
             <Image
               source={require('./assets/images/home_preto.png')}
-              style={styles.icon}
-            />
-          );
-        }
-      },
-    },
-  },
-  Contato: {
-    screen: Contato,
-    navigationOptions: {
-      tabBarLabel: 'Contato',
-      tabBarIcon: ({focused}) => {
-        if (focused) {
-          return (
-            <Image
-              source={require('./assets/images/contato_azul.png')}
-              style={styles.icon}
-            />
-          );
-        } else {
-          return (
-            <Image
-              source={require('./assets/images/contato_preto.png')}
               style={styles.icon}
             />
           );
@@ -78,22 +55,45 @@ const Navigator = createBottomTabNavigator({
       },
     },
   },
-  Sobre: {
-    screen: Sobre,
-    tabBarLabel: 'Sobre',
+  Carrinho: {
+    screen: Carrinho,
+    tabBarLabel: 'Carrinho',
     navigationOptions: {
       tabBarIcon: ({focused}) => {
         if (focused) {
           return (
             <Image
-              source={require('./assets/images/sobre_azul.png')}
+              source={require('./assets/images/carrinho-azul.png')}
               style={styles.icon}
             />
           );
         } else {
           return (
             <Image
-              source={require('./assets/images/sobre_preto.png')}
+              source={require('./assets/images/carrinho-preto.png')}
+              style={styles.icon}
+            />
+          );
+        }
+      },
+    },
+  },
+  Contato: {
+    screen: Contato,
+    navigationOptions: {
+      tabBarLabel: 'Contato',
+      tabBarIcon: ({focused}) => {
+        if (focused) {
+          return (
+            <Image
+              source={require('./assets/images/contato_azul.png')}
+              style={styles.icon}
+            />
+          );
+        } else {
+          return (
+            <Image
+              source={require('./assets/images/contato_preto.png')}
               style={styles.icon}
             />
           );
@@ -105,8 +105,8 @@ const Navigator = createBottomTabNavigator({
 
 const styles = StyleSheet.create({
   icon: {
-    width: 26,
-    height: 26,
+    width: 27,
+    height: 27,
   },
 });
 

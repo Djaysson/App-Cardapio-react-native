@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 
-class Contato extends Component {
+class Carrinho extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#a6bb24',
+    backgroundColor: '#079ed4',
   },
   text: {
     fontSize: 30,
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Contato;
+export default Carrinho;

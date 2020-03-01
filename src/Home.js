@@ -14,6 +14,9 @@ const Navigator = createStackNavigator({
   },
   HomeProducts: {
     screen: HomeProducts,
+    navigationOptions: ({navigation}) => ({
+      title: navigation.state.params.title,
+    }),
   },
 });
 
