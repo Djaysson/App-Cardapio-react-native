@@ -1,6 +1,6 @@
 <h1 align="center">Cardápio-Restaurante</h1>
 
-<p align="center">O projeto Cardápio de restaurante visa mostra para os clientes quais os produtos que o restaurante dispõe</p>
+<p align="center">O projeto Cardápio de restaurante visa mostra para os clientes quais os produtos que o restaurante dispõe.</p>
 <p align="center">
  <a aria-label="github do react native" href="https://github.com/facebook/react-native">
     <img src="http://img.shields.io/badge/React%20Native-0.61-informational?logo=react"></img>
@@ -21,4 +21,4 @@ app.
 
 ## App
 
-<img align="center" src=""></img>
+<img align="center" src="https://github.com/Djaysson/App-Cardapio-react-native/blob/master/assets/images/mobile.gif"></img>
